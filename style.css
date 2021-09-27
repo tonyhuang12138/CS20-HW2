@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap');
+
+body {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1602632066350-4206c806ebdb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-size: 1.3rem;
+}
+
+footer {
+    font-size: 1.2rem;
+    text-align: right;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+    background: rgb(190, 236, 238);
+}
+
+.nav-list {
+    background: rgb(190, 236, 238);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+  
+.nav-item a {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 300ms ease-in;
+}
+
+.nav-item:nth-child(2) {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-item a:hover {
+    color: lightsalmon;
+}
+
+.content {
+    padding: 1rem;
+    background-color: rgb(241, 202, 208);
+    opacity: 0.8;
+}
+
+.no-mugs {
+    display: flex;
+}
+
+.no-mugs img{
+    width: 30%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 991px){
+    .nav-item {
+        list-style: none;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .nav-item a {
+        font-size: 1.5rem;
+    }
+    h1, h2, p {
+        font-size: 1.2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    footer {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .nav-item {
+        list-style: none;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .nav-item a {
+        font-size: 1.2rem;
+    }
+    h1, h2, p {
+        font-size: 1.1rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    footer {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .nav-item {
+        list-style: none;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .nav-item a {
+        font-size: 1rem;
+    }
+    h1, h2, p {
+        font-size: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    footer {
+        font-size: 0.9rem;
+    }
+}
