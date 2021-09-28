@@ -83,12 +83,12 @@ footer {
         font-size: 1.5rem;
     }
     h1, h2, p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding-left: 10rem;
         padding-right: 10rem;
     }
     footer {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -99,15 +99,15 @@ footer {
         margin-right: 2rem;
     }
     .nav-item a {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     h1, h2, p {
-        font-size: 1.1rem;
+        font-size: 2rem;
         padding-left: 5rem;
         padding-right: 5rem;
     }
     footer {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
@@ -118,14 +118,14 @@ footer {
         margin-right: 1.5rem;
     }
     .nav-item a {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     h1, h2, p {
-        font-size: 1rem;
+        font-size: 3rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
     footer {
-        font-size: 0.9rem;
+        font-size: 2.5rem;
     }
 }
